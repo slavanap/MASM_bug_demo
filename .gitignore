@@ -1,0 +1,7 @@
+/Debug
+/Release
+*.lst
+*.obj
+*.user
+*.filters
+/.vs
