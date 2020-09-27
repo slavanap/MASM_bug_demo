@@ -14,7 +14,7 @@ Pos endp
 
 Start:
 	; This doesn't compile
-	INVOKE Pos, size1
+	INVOKE Pos, DWORD PTR size1
 
 	; Expected code gen
 	PUSH byte ptr size1
